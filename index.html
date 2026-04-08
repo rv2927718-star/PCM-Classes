@@ -336,6 +336,26 @@
     }
 
     /* ── FOOTER ── */
+    .footer-social {
+      margin: 16px 0 4px;
+      display: flex;
+      justify-content: center;
+    }
+    .insta-btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+      color: #fff; padding: 10px 22px; border-radius: 50px;
+      font-size: 15px; font-weight: 600; font-family: 'DM Sans', sans-serif;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(220,39,67,.35);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .insta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(220,39,67,.5);
+      color: #fff;
+    }
+    .insta-btn i { font-size: 20px; }
     footer {
       background: var(--navy); color: #94a3b8; text-align: center;
       padding: 36px 24px;
@@ -823,6 +843,12 @@
 <footer>
   <div class="footer-logo">PCM Classes</div>
   <p>Shakti Bhawan Road, Rampur, Jabalpur, MP – 482008 &nbsp;|&nbsp; <a href="tel:08959438884">089594 38884</a></p>
+  <div class="footer-social">
+    <a href="https://www.instagram.com/pcmclassesjbp?igsh=MTJsdG02dmNtbmp3MA==" target="_blank" title="Follow us on Instagram" class="insta-btn">
+      <i class="fab fa-instagram"></i>
+      <span>Follow on Instagram</span>
+    </a>
+  </div>
   <hr class="footer-divider"/>
   <p>© 2026 PCM Classes, Jabalpur. All rights reserved. &nbsp;·&nbsp; PCM Classes Pvt. Limited</p>
 </footer>
